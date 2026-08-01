@@ -20,7 +20,6 @@ Applied engineering principles related to embedded systems, electromechanical de
   - Receives Bluetooth input from an Xbox controller.
   - Processes user inputs and controls all motors and actuators.
 
----
 
 ## Drive System
 ### DC Drive Motors
@@ -34,8 +33,6 @@ Applied engineering principles related to embedded systems, electromechanical de
   - Controls the left and right drive motors.
   - Receives direction commands from the ESP32.
   - Powered by a dedicated 6V battery pack.
-
----
 
 ## Turret / Launcher System
 
@@ -60,8 +57,6 @@ Applied engineering principles related to embedded systems, electromechanical de
   - Provides 360° horizontal rotation of the launcher.
   - Controlled by the ESP32 for precise positioning.
 
----
-
 # Power System
 
 ### ESP32 Power
@@ -78,24 +73,26 @@ Applied engineering principles related to embedded systems, electromechanical de
     - Servo
     - Stepper motor
 
----
 
 # System Overview
-
-```
-             Xbox Controller
-                    │
-            Bluetooth Connection
-                    │
-                 ESP32
-      ┌─────────────┼──────────────┐
-      │             │              │
-      │             │              │
-  L298N #1      L298N #2        Servo
-      │             │              │
-  4 Drive      2 Flywheel      Loading
-   Motors         Motors      Mechanism
-                    │
-               Stepper Motor
-              (360° Turret)
+       Xbox Controller
+                               │
+                         Bluetooth
+                               │
+                          ┌────────┐
+                          │ ESP32  │
+                          └───┬────┘
+      ┌───────────────────────┼────────────────────────┐
+      │                       │                        │
+      │                       │                        │
+  Drive System          Launcher System         Turret System
+      │                       │                        │
+  ┌─────────┐            ┌─────────┐              Stepper Motor
+  │ L298N #1│            │ L298N #2│             (360° Rotation)
+  └────┬────┘            └────┬────┘
+       │                      │
+  4 DC Drive Motors      2 Flywheel Motors
+                               │
+                           Servo Motor
+                        (Loading Mechanism)
 ```
