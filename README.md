@@ -1,4 +1,4 @@
-RC Car Project Overview
+# Mini Tank RC Car Project Overview
 
 Designed and built a custom Bluetooth-controlled RC vehicle using an ESP32 microcontroller as a personal engineering project. The project integrates mechanical design, electrical systems, embedded programming, and motor control to create a modular platform that can be expanded with additional actuators and mechanisms. Development focused on designing reliable hardware, programming responsive controls, troubleshooting electrical systems, and iteratively improving performance through testing.
 
