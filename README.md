@@ -1,9 +1,10 @@
 # Mini Tank RC Car Project Overview
 <p align="center">
-  <img src="images/IMG_6190.jpg" width="45%" alt="Front View">
-  <img src="images/IMG_6189.jpg" width="45%" alt="Rear View">
   <img src="CAD Photos/Screenshot 2026-08-17 205422.png" width="45%" alt="Front View">
   <img src="CAD Photos/Screenshot 2026-08-17 205449.png" width="45%" alt="Rear View">
+  <img src="images/IMG_6229.jpg" width="45%" alt="Front View">
+  <img src="images/IMG_6230.jpg" width="45%" alt="Rear View">
+
 
 </p
 
@@ -18,6 +19,30 @@ Designed a modular architecture that allows future expansion with flywheel motor
 Selected and integrated electronic components including motor drivers, voltage regulation, power distribution, and battery systems while considering current draw, voltage requirements, and electrical safety.
 Debugged hardware and software issues involving motor synchronization, controller connectivity, wiring, power delivery, and embedded code.
 Applied engineering principles related to embedded systems, electromechanical design, circuit design, power management, and rapid prototyping throughout development.
+
+## Physical Prototype
+
+The final physical prototype integrates the mechanical, electrical, and control systems into a functional RC vehicle. The completed platform was tested through driving, steering, wireless control, and operation of the additional mechanisms.
+
+<p align="center">
+  <img src="images/IMG_6229.jpg" width="45%" alt="Physical Prototype Front View">
+  <img src="images/IMG_6230.jpg" width="45%" alt="Physical Prototype Rear View">
+</p>
+
+<p align="center">
+  <img src="images/IMG_6231.jpg" width="45%" alt="Physical Prototype Side View">
+  <img src="images/IMG_6232.jpg" width="45%" alt="Physical Prototype Top View">
+</p>
+
+### Prototype Demonstration
+
+#### Driving Test
+
+https://github.com/user-attachments/assets/PASTE-VIDEO-LINK-HERE
+
+#### Mechanism Demonstration
+
+https://github.com/user-attachments/assets/PASTE-VIDEO-LINK-HERE
 
 # Electronic Components
 
