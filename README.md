@@ -334,6 +334,8 @@ void stopCar() {
 
 The mechanical components of the vehicle and turret system were modeled in **Autodesk Fusion 360**. CAD modeling was used to plan component placement, verify clearances, design mounting features, and develop custom parts for 3D printing.
 
+These CAD models could be used to make 3D-printed parts for the completed version of this project. The working prototype was designed to replicate these designs.
+
 ## Full Assembly
 
 <p align="center">
