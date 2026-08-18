@@ -363,7 +363,7 @@ These CAD models could be used to make 3D-printed parts for the completed versio
 ## Turret Assembly
 
 <p align="center">
-  <!-- Add turret images here -->
+  <img src="CAD Photos/Screenshot 2026-08-17 205537.png" width="45%" alt="Front View">
 </p>
 
 - Designed a rotating turret assembly for the Nerf dart launching system.
@@ -373,10 +373,10 @@ These CAD models could be used to make 3D-printed parts for the completed versio
 ## Flywheel Launcher
 
 <p align="center">
-  <!-- Add flywheel launcher images here -->
+  <img src="CAD Photos/Screenshot 2026-08-17 205603.png" width="45%" alt="Front View">
 </p>
 
-- Modeled the DC flywheel motors and launcher geometry.
+- Modeled the DC flywheels to work with the DC motors.
 - Designed the flywheel spacing to guide Nerf darts between the two rotating wheels.
 - Incorporated motor mounting features to maintain alignment during operation.
 
