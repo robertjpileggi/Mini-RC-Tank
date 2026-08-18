@@ -443,5 +443,15 @@ void stopCar() {
 }
 ```
 
+# Next Steps
+
+With the functionality of the physical prototype established, future development will focus on improving the mechanical design, electrical integration, and overall reliability of the system.
+
+- **3D-Printed Components:** Design and manufacture custom 3D-printed components to replace temporary prototype parts. This includes developing purpose-built mounts, brackets, and other structural components to improve component alignment, packaging, and overall durability.
+
+- **Custom Perfboard Circuit:** Transfer the current breadboard and jumper-wire connections to a soldered perfboard circuit. This will create more reliable electrical connections, reduce loose wiring, and provide a cleaner and more permanent electrical system.
+
+- **Integrated Electrical System:** Consolidate the ESP32, motor drivers, power distribution, and other electrical components into a single organized circuit assembly. The goal is to reduce wiring complexity and create a compact electrical system that can be easily mounted and protected within the vehicle.
+
 
 
