@@ -101,6 +101,7 @@ flowchart TD
     end
 ```
 # System Code
+```cpp
 #include <Bluepad32.h>
 #include <ESP32Servo.h>
 #include <AccelStepper.h>
@@ -327,3 +328,55 @@ void stopCar() {
   digitalWrite(IN3, LOW);
   digitalWrite(IN4, LOW);
 }
+```
+
+# CAD Design
+
+The mechanical components of the vehicle and turret system were modeled in **Autodesk Fusion 360**. CAD modeling was used to plan component placement, verify clearances, design mounting features, and develop custom parts for 3D printing.
+
+## Full Assembly
+
+<p align="center">
+  <!-- Add full assembly images here -->
+</p>
+
+- Modeled the complete vehicle assembly to evaluate component placement and overall packaging.
+- Used the assembly to check mechanical clearances and component fit before fabrication.
+
+## Chassis Design
+
+<p align="center">
+  <!-- Add chassis images here -->
+</p>
+
+- Designed a custom chassis to support the four-wheel drive system and electronic components.
+- Incorporated mounting locations for motors, electronics, and power components.
+- Designed with future modifications and additional components in mind.
+
+## Turret Assembly
+
+<p align="center">
+  <!-- Add turret images here -->
+</p>
+
+- Designed a rotating turret assembly for the Nerf dart launching system.
+- Integrated mounting for the stepper motor, flywheel system, and loading mechanism.
+- Designed the assembly to allow for horizontal rotation.
+
+## Flywheel Launcher
+
+<p align="center">
+  <!-- Add flywheel launcher images here -->
+</p>
+
+- Modeled the DC flywheel motors and launcher geometry.
+- Designed the flywheel spacing to guide Nerf darts between the two rotating wheels.
+- Incorporated motor mounting features to maintain alignment during operation.
+
+## External Components
+
+<p align="center">
+  <!-- Add custom component images here -->
+</p>
+
+-These are the designs of the components. While I did not design them, they are replicas of the electronic components used in this project.
