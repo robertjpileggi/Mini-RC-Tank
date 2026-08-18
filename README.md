@@ -383,7 +383,20 @@ These CAD models could be used to make 3D-printed parts for the completed versio
 ## External Components
 
 <p align="center">
-  <!-- Add custom component images here -->
-</p>
+  <img src="CAD Photos/28BYJ-48.png" width="45%" alt="Front View">
+  <img src="CAD Photos/Screenshot 2026-08-18 112904.png" width="45%" alt="Rear View">
+  <img src="CAD Photos/Screenshot 2026-06-02 124347 (1).png" width="45%" alt="Front View">
+  <img src="CAD Photos/DC-MOTOR_IMG-2.png" width="45%" alt="Rear View">
+
+</p
 
 -These are the designs of the components. While I did not design them, they are replicas of the electronic components used in this project.
+
+Component Credits:
+- DC Flywheel Motor: https://grabcad.com/library/dc-motor-3-6v-generic-brand-2
+- Servo Motor: https://grabcad.com/library/servo-motor-micro-sg90-1
+- Stepper: https://grabcad.com/library/28byj-48-8
+- Wheels and Motors: https://grabcad.com/library/tt-dc-gear-motor-wheel-assembly-1/details?folder_id=14218023
+
+
+
