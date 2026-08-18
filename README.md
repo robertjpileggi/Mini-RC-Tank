@@ -1,7 +1,7 @@
 # Mini Tank RC Car Project Overview
 <p align="center">
-  <img src="images/IMG_6190.jpg" width="45%" alt="Front View">
-  <img src="images/IMG_6189.jpg" width="45%" alt="Rear View">
+  <img src="CAD Photos/Screenshot 2026-08-17 205422.png" width="45%" alt="Front View">
+  <img src="CAD Photos/Screenshot 2026-08-17 205449.png" width="45%" alt="Rear View">
   <img src="images/IMG_6190.jpg" width="45%" alt="Front View">
   <img src="images/IMG_6189.jpg" width="45%" alt="Rear View">
 </p>
