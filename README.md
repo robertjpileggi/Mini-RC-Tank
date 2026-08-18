@@ -51,9 +51,17 @@ The final physical prototype integrates the mechanical, electrical, and control 
 
 </p>
 
-#### Mechanism Demonstration
+#### Bluetooth Controller Demonstration
+<p align="center">
+<img src="images/IMG_6234_under25MB.gif" width="45%" alt="RC Car Driving Demonstration">
+</p>
 
-https://github.com/user-attachments/assets/PASTE-VIDEO-LINK-HERE
+Bluetooth Xbox Controller Mapping:
+- Left Joy-Stick: RC Car Control
+- Right Joy-Stick: Turret Control
+- Left Trigger: Turns on Flywheel Motors
+- Right Trigger: Activates Servo to Push Nerf Bullet through Flywheel Motors
+
 
 # Electronic Components
 
