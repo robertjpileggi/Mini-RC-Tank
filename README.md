@@ -20,7 +20,7 @@ Selected and integrated electronic components including motor drivers, voltage r
 Debugged hardware and software issues involving motor synchronization, controller connectivity, wiring, power delivery, and embedded code.
 Applied engineering principles related to embedded systems, electromechanical design, circuit design, power management, and rapid prototyping throughout development.
 
-## Physical Prototype
+# Physical Prototype
 
 The final physical prototype integrates the mechanical, electrical, and control systems into a functional RC vehicle. The completed platform was tested through driving, steering, wireless control, and operation of the additional mechanisms.
 
@@ -61,6 +61,72 @@ Bluetooth Xbox Controller Mapping:
 - Right Joy-Stick: Turret Control
 - Left Trigger: Turns on Flywheel Motors
 - Right Trigger: Activates Servo to Push Nerf Bullet through Flywheel Motors
+
+# CAD Design
+
+The mechanical components of the vehicle and turret system were modeled in **Autodesk Fusion 360**. CAD modeling was used to plan component placement, verify clearances, design mounting features, and develop custom parts for 3D printing.
+
+These CAD models could be used to make 3D-printed parts for the completed version of this project. The working prototype was designed to replicate these designs.
+
+## Full Assembly
+
+<p align="center">
+  <img src="CAD Photos/Screenshot 2026-08-17 205422.png" width="45%" alt="Front View">
+  <img src="CAD Photos/Screenshot 2026-08-17 205449.png" width="45%" alt="Rear View">
+</p>
+
+- Modeled the complete vehicle assembly to evaluate component placement and overall packaging.
+- Used the assembly to check mechanical clearances and component fit before fabrication.
+
+## Chassis Design
+
+<p align="center">
+  <img src="CAD Photos/Screenshot 2026-08-17 205551.png" width="45%" alt="Front View">
+
+</p>
+
+- Designed a custom chassis to support the four-wheel drive system and electronic components.
+- Incorporated mounting locations for motors, electronics, and power components.
+- Designed with future modifications and additional components in mind.
+
+## Turret Assembly
+
+<p align="center">
+  <img src="CAD Photos/Screenshot 2026-08-17 205537.png" width="45%" alt="Front View">
+</p>
+
+- Designed a rotating turret assembly for the Nerf dart launching system.
+- Integrated mounting for the stepper motor, flywheel system, and loading mechanism.
+- Designed the assembly to allow for horizontal rotation.
+
+## Flywheel Launcher
+
+<p align="center">
+  <img src="CAD Photos/Screenshot 2026-08-17 205603.png" width="45%" alt="Front View">
+</p>
+
+- Modeled the DC flywheels to work with the DC motors.
+- Designed the flywheel spacing to guide Nerf darts between the two rotating wheels.
+- Incorporated motor mounting features to maintain alignment during operation.
+
+## External Components
+
+<p align="center">
+  <img src="CAD Photos/28BYJ-48.png" width="45%" alt="Front View">
+  <img src="CAD Photos/Screenshot 2026-08-18 112904.png" width="45%" alt="Rear View">
+  <img src="CAD Photos/Screenshot 2026-06-02 124347 (1).png" width="45%" alt="Front View">
+  <img src="CAD Photos/DC-MOTOR_IMG-2.png" width="45%" alt="Rear View">
+
+</p
+
+-These are the designs of the components. While I did not design them, they are replicas of the electronic components used in this project.
+
+Component Credits:
+- DC Flywheel Motor: https://grabcad.com/library/dc-motor-3-6v-generic-brand-2
+- Servo Motor: https://grabcad.com/library/servo-motor-micro-sg90-1
+- Stepper: https://grabcad.com/library/28byj-48-8
+- Wheels and Motors: https://grabcad.com/library/tt-dc-gear-motor-wheel-assembly-1/details?folder_id=14218023
+
 
 
 # Electronic Components
@@ -376,71 +442,6 @@ void stopCar() {
   digitalWrite(IN4, LOW);
 }
 ```
-
-# CAD Design
-
-The mechanical components of the vehicle and turret system were modeled in **Autodesk Fusion 360**. CAD modeling was used to plan component placement, verify clearances, design mounting features, and develop custom parts for 3D printing.
-
-These CAD models could be used to make 3D-printed parts for the completed version of this project. The working prototype was designed to replicate these designs.
-
-## Full Assembly
-
-<p align="center">
-  <img src="CAD Photos/Screenshot 2026-08-17 205422.png" width="45%" alt="Front View">
-  <img src="CAD Photos/Screenshot 2026-08-17 205449.png" width="45%" alt="Rear View">
-</p>
-
-- Modeled the complete vehicle assembly to evaluate component placement and overall packaging.
-- Used the assembly to check mechanical clearances and component fit before fabrication.
-
-## Chassis Design
-
-<p align="center">
-  <img src="CAD Photos/Screenshot 2026-08-17 205551.png" width="45%" alt="Front View">
-
-</p>
-
-- Designed a custom chassis to support the four-wheel drive system and electronic components.
-- Incorporated mounting locations for motors, electronics, and power components.
-- Designed with future modifications and additional components in mind.
-
-## Turret Assembly
-
-<p align="center">
-  <img src="CAD Photos/Screenshot 2026-08-17 205537.png" width="45%" alt="Front View">
-</p>
-
-- Designed a rotating turret assembly for the Nerf dart launching system.
-- Integrated mounting for the stepper motor, flywheel system, and loading mechanism.
-- Designed the assembly to allow for horizontal rotation.
-
-## Flywheel Launcher
-
-<p align="center">
-  <img src="CAD Photos/Screenshot 2026-08-17 205603.png" width="45%" alt="Front View">
-</p>
-
-- Modeled the DC flywheels to work with the DC motors.
-- Designed the flywheel spacing to guide Nerf darts between the two rotating wheels.
-- Incorporated motor mounting features to maintain alignment during operation.
-
-## External Components
-
-<p align="center">
-  <img src="CAD Photos/28BYJ-48.png" width="45%" alt="Front View">
-  <img src="CAD Photos/Screenshot 2026-08-18 112904.png" width="45%" alt="Rear View">
-  <img src="CAD Photos/Screenshot 2026-06-02 124347 (1).png" width="45%" alt="Front View">
-  <img src="CAD Photos/DC-MOTOR_IMG-2.png" width="45%" alt="Rear View">
-
-</p
-
--These are the designs of the components. While I did not design them, they are replicas of the electronic components used in this project.
-
-Component Credits:
-- DC Flywheel Motor: https://grabcad.com/library/dc-motor-3-6v-generic-brand-2
-- Servo Motor: https://grabcad.com/library/servo-motor-micro-sg90-1
-- Stepper: https://grabcad.com/library/28byj-48-8
-- Wheels and Motors: https://grabcad.com/library/tt-dc-gear-motor-wheel-assembly-1/details?folder_id=14218023
 
 
 
