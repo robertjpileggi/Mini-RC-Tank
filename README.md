@@ -1,6 +1,6 @@
 # Mini Tank RC Car Project Overview
 <p align="center">
- <img src="images/IMG_6190.jpg" width="45%" alt="Front View">
+  <img src="images/IMG_6190.jpg" width="45%" alt="Front View">
   <img src="images/IMG_6189.jpg" width="45%" alt="Rear View">
   <img src="CAD Photos/Screenshot 2026-08-17 205422.png" width="45%" alt="Front View">
   <img src="CAD Photos/Screenshot 2026-08-17 205449.png" width="45%" alt="Rear View">
@@ -342,7 +342,8 @@ These CAD models could be used to make 3D-printed parts for the completed versio
 ## Full Assembly
 
 <p align="center">
-  <!-- Add full assembly images here -->
+  <img src="CAD Photos/Screenshot 2026-08-17 205422.png" width="45%" alt="Front View">
+  <img src="CAD Photos/Screenshot 2026-08-17 205449.png" width="45%" alt="Rear View">
 </p>
 
 - Modeled the complete vehicle assembly to evaluate component placement and overall packaging.
@@ -351,7 +352,8 @@ These CAD models could be used to make 3D-printed parts for the completed versio
 ## Chassis Design
 
 <p align="center">
-  <!-- Add chassis images here -->
+  <img src="CAD Photos/Screenshot 2026-08-17 205551.png" width="45%" alt="Front View">
+
 </p>
 
 - Designed a custom chassis to support the four-wheel drive system and electronic components.
