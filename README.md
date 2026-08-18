@@ -34,11 +34,22 @@ The final physical prototype integrates the mechanical, electrical, and control 
   <img src="images/IMG_6232.jpg" width="45%" alt="Physical Prototype Top View">
 </p>
 
+### Prototype Validation
+
+- Verified Bluetooth communication between the ESP32 and Xbox controller.
+- Tested four-wheel drive functionality and directional control.
+- Confirmed operation of the servo and stepper motor mechanisms.
+- Tested the additional motor-driven mechanism under real operating conditions.
+- Iteratively adjusted the mechanical and electrical systems based on prototype testing.
+
 ### Prototype Demonstration
 
-#### Driving Test
+#### Driving and Nerf Dart Shooting Test
 
-https://github.com/user-attachments/assets/PASTE-VIDEO-LINK-HERE
+<p align="center">
+  <img src="images/IMG_6235.gif" width="45%" alt="RC Car Driving Demonstration">
+
+</p>
 
 #### Mechanism Demonstration
 
